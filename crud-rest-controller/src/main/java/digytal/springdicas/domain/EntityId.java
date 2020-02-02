@@ -1,4 +1,4 @@
-package digytal.springdicas.domain.model;
+package digytal.springdicas.domain;
 
 public interface EntityId {
 	Object getId();

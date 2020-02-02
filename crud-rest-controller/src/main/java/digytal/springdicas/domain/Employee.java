@@ -1,6 +1,6 @@
-package digytal.springdicas.domain.model;
+package digytal.springdicas.domain;
 
-import java.time.LocalDate;
+import java.math.BigDecimal;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,14 +8,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Customer implements EntityId {
+public class Employee implements EntityId {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Integer id;
+	private Long id;
 	private String name;
-	private LocalDate birthdate;
+	private BigDecimal salary;
 	
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 	public String getName() {
@@ -24,11 +24,11 @@ public class Customer implements EntityId {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public LocalDate getBirthdate() {
-		return birthdate;
+	public BigDecimal getSalary() {
+		return salary;
 	}
-	public void setBirthdate(LocalDate birthdate) {
-		this.birthdate = birthdate;
+	public void setSalary(BigDecimal salary) {
+		this.salary = salary;
 	}
 	
 }

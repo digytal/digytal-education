@@ -1,8 +1,8 @@
-package digytal.springdicas.components.repository;
+package digytal.springdicas.repository;
 
 import org.springframework.stereotype.Repository;
 
-import digytal.springdicas.domain.model.Customer;
+import digytal.springdicas.domain.Customer;
 @Repository
 public class CustomerRepository extends CrudRepository<Customer, Integer> {
 

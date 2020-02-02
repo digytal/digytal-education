@@ -1,4 +1,4 @@
-package digytal.springdicas.components.controller;
+package digytal.springdicas.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import digytal.springdicas.components.repository.CrudRepository;
-import digytal.springdicas.domain.model.EntityId;
+import digytal.springdicas.domain.EntityId;
+import digytal.springdicas.repository.CrudRepository;
 
 public abstract class Controller<E extends EntityId, K> {
 	@Autowired

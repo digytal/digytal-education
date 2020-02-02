@@ -1,8 +1,8 @@
-package digytal.springdicas.components.repository;
+package digytal.springdicas.repository;
 
 import org.springframework.stereotype.Repository;
 
-import digytal.springdicas.domain.model.Employee;
+import digytal.springdicas.domain.Employee;
 
 @Repository
 public class EmployeeRepository extends CrudRepository<Employee, Long> {

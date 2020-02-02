@@ -1,4 +1,4 @@
-package digytal.springdicas.components.repository;
+package digytal.springdicas.repository;
 
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
@@ -8,7 +8,7 @@ import javax.persistence.PersistenceContext;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import digytal.springdicas.domain.model.EntityId;
+import digytal.springdicas.domain.EntityId;
 
 public class CrudRepository <E extends EntityId, K> {
 	@PersistenceContext
