@@ -1,0 +1,2 @@
+Você sabia que podemos criar uma intancia de uma classe via application.properties?
+Imagina que você gostaria que os valores para uma conexão via ftp ou dados para envio de e-mail fossem definidos por ambiente. É muito simples, com SpringBoot basta anotar a classe com @ConfigurationProperties(prefix = "prefixo") e injetar com @Autowired.
