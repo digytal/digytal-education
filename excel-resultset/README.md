@@ -2,10 +2,13 @@
 www.digytal.com.br
 (11) 95894 0362
 
-# ConfigurationProperties
-Projeto open source para demonstrar a instanciação de uma classe via applications.properties. 
+# ExcelResultSet
+Projeto open source para demonstrar uma forma mais simples de leitura de arquivos excel baseado no padrão JDBC ResultSet.
+NOTA: Existe uma arquivo .xlsx na pasta src\xls  
 
 ### Inicialização
 
-- Execute a classe `digytal.springdicas.PropertiesApplication` .
+- Execute a classe `digytal.springdicas.ExcelResultSetTest`.
+
+
 
