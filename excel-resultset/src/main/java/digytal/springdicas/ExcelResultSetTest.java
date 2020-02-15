@@ -33,8 +33,6 @@ public class ExcelResultSetTest {
 				titulo.setPago(exrs.getBoolean("Pago","Sim"));
 				titulo.setDateTimeProcessamento(exrs.getLocalDateTime("Dh Processamento"));
 				
-				
-				
 				titulo.setValue(exrs.getBigDecimal("Valor"));
 				titulo.setDataVencimento(exrs.getDate("Data Vencimento"));
 				break;
