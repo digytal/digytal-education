@@ -1,4 +1,4 @@
-package digytal.excelresultset;
+package digytal.springdicas;
 
 import java.io.File;
 import java.io.FileInputStream;

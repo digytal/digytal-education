@@ -1,4 +1,4 @@
-package digytal.excelresultset;
+package digytal.springdicas;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -24,16 +24,21 @@ public class ExcelResultSetTest {
 			ExcelResultSet exrs = new ExcelResultSet(inputStream);
 			titulo = new Titulo();
 			while(exrs.next()) {
-				titulo.setNumero(exrs.getInteger("Numero"));
-				titulo.setNome(exrs.getString("Nome"));
 				
+				titulo.setNome(exrs.getString("Nome"));
+				titulo.setCpf(exrs.getString("Cpf"));
+				titulo.setNumero(exrs.getInteger("Numero"));
 				titulo.setLocalDateVencimento(exrs.getLocalDate("Data Vencimento"));
-				titulo.setDateTimeProcessamento(exrs.getLocalDateTime("Dh Processamento"));
 				titulo.setValor(exrs.getDouble("Valor"));
+				titulo.setPago(exrs.getBoolean("Pago","Sim"));
+				titulo.setDateTimeProcessamento(exrs.getLocalDateTime("Dh Processamento"));
+				
+				
+				
 				titulo.setValue(exrs.getBigDecimal("Valor"));
 				titulo.setDataVencimento(exrs.getDate("Data Vencimento"));
-				titulo.setPago(exrs.getBoolean("Pago","Sim"));
 				break;
+				
 			}
 		} catch (Exception e) {
 			fail(e.getMessage());
