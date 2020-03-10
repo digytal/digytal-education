@@ -1,2 +1,3 @@
-Você sabia que podemos criar uma intancia de uma classe via application.properties?
-Imagina que você gostaria que os valores para uma conexão via ftp ou dados para envio de e-mail fossem definidos por ambiente. É muito simples, com SpringBoot basta anotar a classe com @ConfigurationProperties(prefix = "prefixo") e injetar com @Autowired.
+Aqui na Digytal acreditamos que é imprescindivel uma API segura com perfis de acesso e uma boa documentação.
+Segue um exemplo de nossa API com controle de perfis de acesso deixando seus regras (roles) mais dinâmicas e seus recursos (rest controller) mais seguros.
+Vocês já sabem né, dúvidas e sugestões são sempre bem-vindas.
