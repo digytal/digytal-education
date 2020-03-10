@@ -39,7 +39,7 @@ public class SwaggerConfig {
 		docket
 		.globalOperationParameters(params)
 		.select()
-		.apis(RequestHandlerSelectors.basePackage("digytal.springdicas.components.resource"))
+		.apis(RequestHandlerSelectors.basePackage("digytal.springdicas.resource"))
 		.paths(PathSelectors.any())
 		.build()
 		.apiInfo(this.informacoesApi().build())

@@ -14,8 +14,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import digytal.springdicas.components.repository.acesso.UsuarioRepository;
-import digytal.springdicas.core.domain.acesso.Usuario;
+import digytal.springdicas.domain.acesso.Usuario;
+import digytal.springdicas.repository.UsuarioRepository;
 
 
 @Service(value = "userService")

@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import digytal.springdicas.components.service.AcessoService;
+import digytal.springdicas.service.AcessoService;
 
 @SpringBootApplication
 public class SwaggerJwtPerfilAcessoApplication {

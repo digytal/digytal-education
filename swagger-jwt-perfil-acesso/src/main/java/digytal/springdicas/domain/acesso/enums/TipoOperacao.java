@@ -1,4 +1,4 @@
-package digytal.springdicas.core.domain.acesso.enums;
+package digytal.springdicas.domain.acesso.enums;
 
 public enum TipoOperacao {
 	INSERT("Incluir"),

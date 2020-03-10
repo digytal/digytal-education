@@ -1,4 +1,4 @@
-package digytal.springdicas.core.domain.acesso;
+package digytal.springdicas.domain.acesso;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

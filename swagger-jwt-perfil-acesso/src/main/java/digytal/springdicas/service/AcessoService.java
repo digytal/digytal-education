@@ -1,4 +1,4 @@
-package digytal.springdicas.components.service;
+package digytal.springdicas.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,15 +8,15 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import digytal.springdicas.components.repository.acesso.FuncionalidadeRepository;
-import digytal.springdicas.components.repository.acesso.PerfilRepository;
-import digytal.springdicas.components.repository.acesso.PermissaoRepository;
-import digytal.springdicas.components.repository.acesso.UsuarioRepository;
-import digytal.springdicas.core.domain.acesso.Funcionalidade;
-import digytal.springdicas.core.domain.acesso.Perfil;
-import digytal.springdicas.core.domain.acesso.Permissao;
-import digytal.springdicas.core.domain.acesso.Usuario;
-import digytal.springdicas.core.domain.acesso.enums.TipoOperacao;
+import digytal.springdicas.domain.acesso.Funcionalidade;
+import digytal.springdicas.domain.acesso.Perfil;
+import digytal.springdicas.domain.acesso.Permissao;
+import digytal.springdicas.domain.acesso.Usuario;
+import digytal.springdicas.domain.acesso.enums.TipoOperacao;
+import digytal.springdicas.repository.FuncionalidadeRepository;
+import digytal.springdicas.repository.PerfilRepository;
+import digytal.springdicas.repository.PermissaoRepository;
+import digytal.springdicas.repository.UsuarioRepository;
 
 /**
  * 

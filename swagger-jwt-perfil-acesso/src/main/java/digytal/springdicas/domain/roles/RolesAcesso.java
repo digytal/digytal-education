@@ -1,4 +1,4 @@
-package digytal.springdicas.core.roles;
+package digytal.springdicas.domain.roles;
 
 public interface RolesAcesso {
 	static final String USUARIOS_SEARCH= "hasRole('USUARIOS_SEARCH')";

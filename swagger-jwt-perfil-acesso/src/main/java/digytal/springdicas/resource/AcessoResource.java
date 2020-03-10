@@ -1,4 +1,4 @@
-package digytal.springdicas.components.resource.acesso;
+package digytal.springdicas.resource;
 
 import java.util.List;
 
@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import digytal.springdicas.components.repository.acesso.FuncionalidadeRepository;
-import digytal.springdicas.components.repository.acesso.PerfilRepository;
-import digytal.springdicas.components.repository.acesso.PermissaoRepository;
-import digytal.springdicas.core.domain.acesso.Funcionalidade;
-import digytal.springdicas.core.domain.acesso.Perfil;
-import digytal.springdicas.core.domain.acesso.Permissao;
-import digytal.springdicas.core.roles.RolesAcesso;
+import digytal.springdicas.domain.acesso.Funcionalidade;
+import digytal.springdicas.domain.acesso.Perfil;
+import digytal.springdicas.domain.acesso.Permissao;
+import digytal.springdicas.domain.roles.RolesAcesso;
+import digytal.springdicas.repository.FuncionalidadeRepository;
+import digytal.springdicas.repository.PerfilRepository;
+import digytal.springdicas.repository.PermissaoRepository;
 
 /**
  * 

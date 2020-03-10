@@ -1,4 +1,4 @@
-package digytal.springdicas.core.domain.acesso;
+package digytal.springdicas.domain.acesso;
 
 import java.util.ArrayList;
 import java.util.List;
