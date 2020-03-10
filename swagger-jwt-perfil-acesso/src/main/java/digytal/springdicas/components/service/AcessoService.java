@@ -1,4 +1,4 @@
-package digytal.springdicas.components;
+package digytal.springdicas.components.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +43,7 @@ public class AcessoService {
 	private PasswordEncoder encoder;
 	
 	public void configuracaoInicial() {
+		List<Permissao> permissoesUser = null;
 		if(usuarioRepository.findByLogin("user")==null) {
 		
 			Funcionalidade funcionalidade = new Funcionalidade();
@@ -51,13 +52,13 @@ public class AcessoService {
 			funcionalidade.setModulo("ACESSO");
 			funcionalidadeRepository.save(funcionalidade);
 			
-			List<Permissao> permissoes = criarPermissoes(funcionalidade);
+			 permissoesUser = criarPermissoes(funcionalidade);
 			
 			
 			Perfil perfil =new Perfil();
 			perfil.setExterno(false);
 			perfil.setNome("USER");
-			perfil.setPermissoes(permissoes);
+			perfil.setPermissoes(permissoesUser);
 			perfilRepository.save(perfil);
 			
 			Usuario user = new Usuario();
@@ -88,6 +89,7 @@ public class AcessoService {
 			
 			
 			List<Permissao> permissoes = new ArrayList<Permissao>();
+			permissoes.addAll(permissoesUser);
 			permissoes.addAll(criarPermissoes(funcionalidade1));
 			permissoes.addAll(criarPermissoes(funcionalidade2));
 			

@@ -36,37 +36,37 @@ public class AcessoResource {
 	@Autowired
 	private PermissaoRepository permissaoRepository;
 	
-	@PostMapping
+	@PostMapping(path="/funcionalidades")
 	@PreAuthorize(RolesAcesso.FUNCIONALIDADES_INSERT)
 	public void incluirFuncionalidade(@RequestBody Funcionalidade entidade) {
 		funcionalidadeRepository.save(entidade);
 	}
 	
-	@GetMapping
+	@GetMapping(path="/funcionalidades")
 	@PreAuthorize(RolesAcesso.FUNCIONALIDADES_SEARCH)
 	public List<Funcionalidade> listasFuncionalidades() {
 		return funcionalidadeRepository.findAll();
 	}
 	
-	@PostMapping
+	@PostMapping(path="/perfis")
 	@PreAuthorize(RolesAcesso.PERFIL_INSERT)
 	public void incluirPerfil(@RequestBody Perfil entidade) {
 		perfilRepository.save(entidade);
 	}
 	
-	@GetMapping
+	@GetMapping(path="/perfis")
 	@PreAuthorize(RolesAcesso.PERFIL_SEARCH)
 	public List<Perfil> listarPerfis() {
 		return perfilRepository.findAll();
 	}
 	
-	@PostMapping
+	@PostMapping(path="/permissoes")
 	@PreAuthorize(RolesAcesso.PERMISSAO_INSERT)
 	public void incluirPermissao(@RequestBody Permissao entidade) {
 		permissaoRepository.save(entidade);
 	}
 	
-	@GetMapping
+	@GetMapping(path="/permissoes")
 	@PreAuthorize(RolesAcesso.PERMISSAO_SEARCH)
 	public List<Permissao> listarPermissao() {
 		return permissaoRepository.findAll();
