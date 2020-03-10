@@ -43,10 +43,10 @@ public class JwtUserService implements UserDetailsService{
 		sb.append("JOIN tab_acs_perfil_permissao pp ON up.cd_perfil = pp.cd_perfil  ");   
 		sb.append("JOIN tab_acs_permissao ps ON ps.id_permissao = pp.cd_permissao ");
 		sb.append("JOIN tab_acs_funcionalidade f ON f.id_funcionalidade = ps.cd_funcionalidade ");
-		sb.append("WHERE up.cd_usuario = 1 ");
+		sb.append("WHERE up.cd_usuario = :idUsuario ");
 		sb.append("GROUP BY ps.id_permissao ");  
 		sb.append("ORDER BY ps.id_permissao ");
-		List<String> lista = em.createNativeQuery(sb.toString()).getResultList();
+		List<String> lista = em.createNativeQuery(sb.toString()).setParameter("idUsuario", user.getId()).getResultList();
 		
 		Set<SimpleGrantedAuthority> authorities = new HashSet<>();
 		
