@@ -5,8 +5,8 @@ www.digytal.com.br
 # Swagger  - JWT - Perfil Acesso
 Projeto open source para demonstrar a construção de uma API Rest com configurações de perfis de acesso de forma dinâmica e segurança nos recursos disponibilizados.
 
-> Aqui na Digytal acreditamos que é imprescindivel uma API segura com perfis de acesso e uma boa documentação.
-Segue um exemplo de nossa API com controle de perfis de acesso deixando seus regras (roles) mais dinâmicas e seus recursos (rest controller) mais seguros.
+> Aqui na Digytal acreditamos que é imprescindível uma API segura com perfis de acesso e uma boa documentação.
+Segue um exemplo de nossa API com controle de perfis de acesso deixando suas regras (roles) mais dinâmicas e seus recursos (rest controller) mais seguros.
 Vocês já sabem né, dúvidas e sugestões são sempre bem-vindas.
 
 |Pacote         |Descrição                      
