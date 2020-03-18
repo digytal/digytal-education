@@ -2,13 +2,14 @@
 www.digytal.com.br
 (11) 95894 0362
 
-# ExcelResultSet
-Projeto open source para demonstrar uma forma mais simples de leitura de arquivos excel baseado no padrão JDBC ResultSet.
-NOTA: Existe um arquivo .xlsx na pasta src\xls  
+# JpaMappingEntity
+Projeto open source para demonstrar alguns exemplos de mapeamento de entidades versus base de dados.
+
+NOTA: Veja o arquivo `application.properties` e `pom.xml` para configurar a base de dados de sua preferência.
 
 ### Inicialização
 
-- Execute a classe `digytal.springdicas.ExcelResultSetTest`.
+- Execute a classe `digytal.springdicas.JpaMappingEntityApplication`.
 
 
 
