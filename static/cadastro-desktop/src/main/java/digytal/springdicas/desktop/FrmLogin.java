@@ -111,23 +111,7 @@ public class FrmLogin extends JFrame {
     }
     private void login() {
 		try {
-			//logger.info(service.getClass().getName());
 			
-			/*
-			Sessao sessao = service.login(getLogin(),getSenha());
-			if (sessao==null|| sessao.getUsuario()==null) {
-				SSMensagem.avisa("Credencial Inválida");
-				FrmUsuario frm = CfipDesktopApp.getBean(FrmUsuario.class);
-				frm.setVisible(true);
-			} else {
-				ambiente.setSessao(sessao);
-				ambiente.setProfile(profile);
-				MDICfip mdi = CfipDesktopApp.getBean(MDICfip.class);
-				mdi.exibirSessao(ambiente);
-				mdi.setVisible(true);
-				this.dispose();
-			}
-			*/
 			MDIPrincipal mdi = Contexto.getBean(MDIPrincipal.class);
 			mdi.setVisible(true);
 			this.dispose();
@@ -137,11 +121,7 @@ public class FrmLogin extends JFrame {
 			SSMensagem.erro("Erro ao tentar fazer login");
 		}
 	}
-    /*
-    public void logar(ActionListener listener) {
-        btOk.addActionListener(listener);
-    }
-	*/
+   
     public void exibir() {
         this.setVisible(true);
         Contexto.fecharSplash();
