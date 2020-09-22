@@ -9,10 +9,13 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
 import digytal.desktop.util.Entidade;
+import digytal.desktop.util.FormularioUtil;
 import digytal.util.desktop.ss.SSBotao;
 import digytal.util.desktop.ss.SSCabecalho;
 import digytal.util.desktop.ss.SSGrade;
 import digytal.util.desktop.ss.SSRodape;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class FormularioConsulta extends JPanel {
 	private SSCabecalho cabecalho = new SSCabecalho();
@@ -28,6 +31,11 @@ public class FormularioConsulta extends JPanel {
 		cabecalho.setDescricao("Exemplo de Formulario de Consulta");
 		bSair.setText("Fechar");
 		bAlterar.setText("Alterar");
+		bNovo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				FormularioUtil.exibir(new FormularioCadastro());
+			}
+		});
 		bNovo.setText("Novo");
 		
 		setLayout(new BorderLayout());
