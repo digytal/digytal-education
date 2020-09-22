@@ -24,6 +24,7 @@ public abstract class FormularioConsulta extends Formulario {
 	private JScrollPane scroll;
 	public FormularioConsulta() {
 		super(new BorderLayout());
+		
 		init();
 	}
 	private void init(){
