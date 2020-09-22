@@ -22,11 +22,11 @@ import digytal.springdicas.api.model.cadastro.Endereco;
 import digytal.springdicas.api.model.cadastro.Pessoa;
 import digytal.springdicas.api.service.cadastro.ClienteService;
 import digytal.springdicas.beans.Contexto;
-import open.digytal.util.desktop.FormularioConsulta;
-import open.digytal.util.desktop.ss.SSBotao;
-import open.digytal.util.desktop.ss.SSCaixaCombinacao;
-import open.digytal.util.desktop.ss.SSCampoTexto;
-import open.digytal.util.desktop.ss.SSPosicaoRotulo;
+import digytal.util.desktop.FormularioConsulta;
+import digytal.util.desktop.ss.SSBotao;
+import digytal.util.desktop.ss.SSCaixaCombinacao;
+import digytal.util.desktop.ss.SSCampoTexto;
+import digytal.util.desktop.ss.SSPosicaoRotulo;
 
 @Component
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)

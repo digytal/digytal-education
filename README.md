@@ -11,7 +11,7 @@ www.digytal.com.br
 - [Os benefícios do ensino de linguagem de programação no currículo regular](https://administradores.com.br/artigos/os-beneficios-do-ensino-de-linguagem-de-programacao-no-curriculo-regular)
 
 ### Linguagem de programação
--  [Wikipedia](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o) 
+- [Wikipedia](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o) 
 - [As 15 principais linguagens de programação do mundo](https://becode.com.br/principais-linguagens-de-programacao/) 
 
 ### Canais no Youtube

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import digytal.springdicas.api.model.cadastro.Cliente;
 import digytal.springdicas.api.service.cadastro.ClienteService;
-import open.digytal.util.desktop.ss.SSMensagem;
+import digytal.util.desktop.ss.SSMensagem;
 
 @Component
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)

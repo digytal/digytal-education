@@ -14,13 +14,13 @@ import digytal.springdicas.api.enums.municipio.Estados;
 import digytal.springdicas.api.enums.municipio.Municipio;
 import digytal.springdicas.api.model.cadastro.Endereco;
 import digytal.springdicas.beans.Contexto;
-import open.digytal.util.desktop.Formulario;
-import open.digytal.util.desktop.ss.SSCaixaCombinacao;
-import open.digytal.util.desktop.ss.SSCampoMascara;
-import open.digytal.util.desktop.ss.SSCampoTexto;
-import open.digytal.util.desktop.ss.SSMensagem;
-import open.digytal.util.desktop.ss.evento.SSPesquisaEvento;
-import open.digytal.util.desktop.ss.evento.SSPesquisaListener;
+import digytal.util.desktop.Formulario;
+import digytal.util.desktop.ss.SSCaixaCombinacao;
+import digytal.util.desktop.ss.SSCampoMascara;
+import digytal.util.desktop.ss.SSCampoTexto;
+import digytal.util.desktop.ss.SSMensagem;
+import digytal.util.desktop.ss.evento.SSPesquisaEvento;
+import digytal.util.desktop.ss.evento.SSPesquisaListener;
 
 
 public class PainelEndereco extends JPanel {

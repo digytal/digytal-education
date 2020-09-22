@@ -13,8 +13,8 @@ import org.springframework.stereotype.Component;
 
 import digytal.springdicas.api.model.cadastro.Cadastro;
 import digytal.springdicas.desktop.comum.PainelPessoa;
-import open.digytal.util.desktop.Formulario;
-import open.digytal.util.desktop.ss.SSBotao;
+import digytal.util.desktop.Formulario;
+import digytal.util.desktop.ss.SSBotao;
 
 
 public abstract class FrmCadastro extends Formulario {

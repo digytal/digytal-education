@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import open.digytal.util.desktop.Splash;
+import digytal.util.desktop.Splash;
 
 @Component
 @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)

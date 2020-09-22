@@ -12,12 +12,12 @@ import javax.swing.JTabbedPane;
 
 import digytal.springdicas.api.model.cadastro.Endereco;
 import digytal.springdicas.api.model.cadastro.Pessoa;
-import open.digytal.util.desktop.ss.SSCampoDataHora;
-import open.digytal.util.desktop.ss.SSCampoMascara;
-import open.digytal.util.desktop.ss.SSCampoTexto;
-import open.digytal.util.desktop.ss.util.SSFormatador;
-import open.digytal.util.desktop.ss.util.SSTexto;
-import open.digytal.util.desktop.ss.util.SSValidacao;
+import digytal.util.desktop.ss.SSCampoDataHora;
+import digytal.util.desktop.ss.SSCampoMascara;
+import digytal.util.desktop.ss.SSCampoTexto;
+import digytal.util.desktop.ss.util.SSFormatador;
+import digytal.util.desktop.ss.util.SSTexto;
+import digytal.util.desktop.ss.util.SSValidacao;
 
 public class PainelPessoa extends JPanel {
 	private PainelEndereco painelContato = new PainelEndereco();

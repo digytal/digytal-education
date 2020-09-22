@@ -20,11 +20,11 @@ import org.springframework.stereotype.Component;
 
 import digytal.springdicas.beans.Contexto;
 import digytal.springdicas.utils.Imagens;
-import open.digytal.util.desktop.ss.SSBotao;
-import open.digytal.util.desktop.ss.SSCabecalho;
-import open.digytal.util.desktop.ss.SSCampoSenha;
-import open.digytal.util.desktop.ss.SSCampoTexto;
-import open.digytal.util.desktop.ss.SSMensagem;
+import digytal.util.desktop.ss.SSBotao;
+import digytal.util.desktop.ss.SSCabecalho;
+import digytal.util.desktop.ss.SSCampoSenha;
+import digytal.util.desktop.ss.SSCampoTexto;
+import digytal.util.desktop.ss.SSMensagem;
 
 @Component
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)

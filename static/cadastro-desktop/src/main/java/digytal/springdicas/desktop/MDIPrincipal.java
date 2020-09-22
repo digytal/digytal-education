@@ -19,7 +19,7 @@ import digytal.springdicas.api.model.cadastro.Pessoa;
 import digytal.springdicas.beans.Contexto;
 import digytal.springdicas.desktop.cadastro.FrmCliente;
 import digytal.springdicas.desktop.cadastro.FrmClientes;
-import open.digytal.util.desktop.MDI;
+import digytal.util.desktop.MDI;
 
 @Component
 public class MDIPrincipal extends MDI {

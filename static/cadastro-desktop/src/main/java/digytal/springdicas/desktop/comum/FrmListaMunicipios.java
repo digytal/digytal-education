@@ -15,11 +15,11 @@ import org.springframework.stereotype.Component;
 
 import digytal.springdicas.api.enums.municipio.Estados;
 import digytal.springdicas.api.enums.municipio.Municipio;
-import open.digytal.util.desktop.FormularioConsulta;
-import open.digytal.util.desktop.ss.SSBotao;
-import open.digytal.util.desktop.ss.SSCampoTexto;
-import open.digytal.util.desktop.ss.SSMensagem;
-import open.digytal.util.desktop.ss.SSPosicaoRotulo;
+import digytal.util.desktop.FormularioConsulta;
+import digytal.util.desktop.ss.SSBotao;
+import digytal.util.desktop.ss.SSCampoTexto;
+import digytal.util.desktop.ss.SSMensagem;
+import digytal.util.desktop.ss.SSPosicaoRotulo;
 
 @Component
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
