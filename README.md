@@ -14,6 +14,10 @@ www.digytal.com.br
 -  [Wikipedia](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o) 
 - [As 15 principais linguagens de programação do mundo](https://becode.com.br/principais-linguagens-de-programacao/) 
 
+### Canais no Youtube
+- Universidade XTI
+- Dev Dojo
+
 ### Sites da Comunidade
 - [Stack Overflow](https://pt.stackoverflow.com/)
 - [GUJ](www.guj.com.br)
@@ -24,9 +28,6 @@ www.digytal.com.br
 - [Caelum](https://www.caelum.com.br/)
 - [Udemy](https://www.udemy.com/)
 - 
-### Canais no Youtube
-- Universidade XTI
-- Dev Dojo
 
 ### Instrutores
 - Loiane Groner
