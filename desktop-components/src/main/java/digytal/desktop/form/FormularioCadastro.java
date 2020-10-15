@@ -35,7 +35,7 @@ public class FormularioCadastro extends JPanel {
 	
 	
 	public FormularioCadastro() {
-		setSize(400,400);
+		setSize(300,300);
 		cabecalho.setTitulo("Formulario Cadastro");
 		cabecalho.setDescricao("Exemplo de Formulario de Cadastro");
 		bSair.setText("Fechar");

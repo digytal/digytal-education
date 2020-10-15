@@ -26,7 +26,7 @@ public class FormularioConsulta extends JPanel {
 	private SSGrade tabela = new SSGrade();
 	private JScrollPane scroll;
 	public FormularioConsulta() {
-		setSize(400,400);
+		setSize(300,300);
 		cabecalho.setTitulo("Formulario Consulta");
 		cabecalho.setDescricao("Exemplo de Formulario de Consulta");
 		bSair.setText("Fechar");
